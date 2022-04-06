@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Hookcounter2 from './components/Hookcounter2'
+import Increment from './components/Increment'
+import Hookcounter3 from './components/Hookcounter3'
+import Form from './components/Form'
+import Map from './components/Map'
+import HooksMap from './HooksMap'
+import Effect from './components/useeffect'
+import HookMouse from './components/HookMouse'
+import DataFetch from './components/DataFetch'
+import MapElement from './components/MapElement'
+import Increase from './components/Increase'
+import Forms from './components/Forms'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MapElement/>
+      <Increase/>
+      <Forms/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
